@@ -1,0 +1,8 @@
+﻿model,parameter,posterior_mean,eti94_lb,eti94_ub,prob_gt_zero
+HB-TV-Mu-ExG,delta_pop,0.2083,0.1514,0.2712,1.0
+HB-TV-Mu-ExG,mu_pop,0.785,0.7508,0.8206,1.0
+HB-TV-Mu-ExG,tau_pop,0.518,0.4627,0.5748,1.0
+HB-TV-Both-ExG,delta_pop,0.146,0.0947,0.2041,1.0
+HB-TV-Both-ExG,theta_pop,0.3617,0.2417,0.4831,1.0
+HB-TV-Both-ExG,mu_pop,0.8146,0.7762,0.8532,1.0
+HB-TV-Both-ExG,tau_pop,0.3489,0.2965,0.4023,1.0

@@ -1,0 +1,2 @@
+﻿comparison,threshold_s,n_posterior_draws,pct_draws_q2_starts_below,pct_crossover_given_starts_below,median_crossover_min,eti94_lb_min,eti94_ub_min
+"Q2 overtaking Q4, mean exceedance probability",2.5,1000,75.3,99.1,3.36,0.17,11.06

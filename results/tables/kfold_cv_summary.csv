@@ -1,0 +1,2 @@
+﻿scheme,n_folds,n_obs,n_draws,elpd_kfold_tv,elpd_kfold_static,d_elpd_kfold,dse_kfold,pct_folds_favoring_tv
+10-fold CV (subject-stratified),10,1329,8000,-739.372,-783.63,44.258,10.418,90.0

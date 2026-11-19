@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software or the accompanying de-identified data, please cite it as below."
+type: software
+title: "HB-TV-ExG: Hierarchical Bayesian Time-Varying Ex-Gaussian Modeling for Reaction-Time Vigilance Decrement"
+abstract: >-
+  Reference implementation of HB-TV-ExG, a hierarchical Bayesian model in which the tail
+  parameter of an Ex-Gaussian response-time density drifts linearly across a monitoring
+  session. The model separates a static initial tail risk from an individual fatigue slope,
+  yields a two-axis risk quadrant assignment, and is validated against a static-exposure
+  variant with PSIS-LOO and WAIC, against competing response-time densities with a
+  participant-cluster bootstrap, against four quality-control strategies, with a
+  time-varying location ablation and subject-stratified 10-fold cross-validation, and with
+  posterior quadrant classification probabilities, a posterior crossover-time distribution
+  and posterior predictive checks.
+authors:
+  - family-names: Gu
+    given-names: Liyuan
+    affiliation: "School of Management Engineering, Capital University of Economics and Business, Beijing, China"
+  - family-names: Miao
+    given-names: Mingyue
+    affiliation: "School of Management Engineering, Capital University of Economics and Business, Beijing, China"
+  - family-names: Huang
+    given-names: Lihua
+    affiliation: "School of Management Engineering, Capital University of Economics and Business, Beijing, China"
+  - family-names: Zhao
+    given-names: Fangxia
+    affiliation: "School of Management Engineering, Capital University of Economics and Business, Beijing, China"
+version: 1.0.0
+date-released: 2026-11-16
+license: MIT
+keywords:
+  - reaction time
+  - Ex-Gaussian distribution
+  - hierarchical Bayesian model
+  - vigilance decrement
+  - automated driving
+  - takeover performance
+  - reproducibility

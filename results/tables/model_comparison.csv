@@ -1,0 +1,4 @@
+model,description,n_obs,n_subjects,n_draws,elpd_loo,se_elpd_loo,p_loo,elpd_waic,se_elpd_waic,p_waic,pareto_k_max,max_r_hat,min_ess_bulk,divergences,theta_pop_mean,theta_pop_eti94_lb,theta_pop_eti94_ub,tau_pop_mean,elapsed_s,note
+HB-TV-ExG,time-varying fatigue slope theta_i,1329,50,8000,-739.946,35.611,89.217,-736.993,35.419,86.264,1.007,1.008,1265.9,2.0,0.478,0.3692,0.5918,0.3009,111.7,
+HB-Static-ExG,"static tail risk, no time slope",1329,50,8000,-785.045,33.998,79.278,-782.706,33.858,76.939,0.847,1.0054,1179.2,0.0,,,,0.5455,25.0,
+HB-TV-ExG vs HB-Static-ExG,paired difference (time-varying minus static); positive values favour the time-varying model,1329,50,8000,,,,,,,,,,,,,,,,"d_elpd_loo=+45.10, dSE_loo=10.48; d_elpd_waic=+45.71, dSE_waic=10.41"

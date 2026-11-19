@@ -1,0 +1,6 @@
+step,column,rows_before,rows_after,n_3sigma_replaced,n_iqr_dropped,note
+01_load_trials,-,1500,1500,0,0,"50 operators x 30 trials, anonymous identifiers S01-S50"
+02_drop_missing,-,1500,1500,0,0,trials with a missing response channel removed
+03_clean_foot_rt_us,foot_rt_us,1500,1391,29,109,"median=1337016 us; 3-sigma=[0, 5520256] us; IQR threshold=[-1163998, 3985961] us"
+03_clean_hand_rt_us,hand_rt_us,1391,1329,2,62,"median=971708 us; 3-sigma=[0, 19468361] us; IQR threshold=[-800302, 2930954] us"
+04_final,-,1500,1329,31,171,retention 88.60%; 50 operators; trials per operator 11-30

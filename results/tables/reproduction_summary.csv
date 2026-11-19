@@ -1,0 +1,26 @@
+quantity,value,unit,source_table
+trials_analysed,1329,trials,data_cleaning_funnel.csv
+retention,88.6,%,data_cleaning_funnel.csv
+max_r_hat,1.008,-,hb_tv_convergence_diagnostics.csv
+divergences,2,draws,hb_tv_convergence_diagnostics.csv
+theta_pop_mean,0.478,s per session,hb_tv_convergence_diagnostics.csv
+pearson_tau_base_vs_p99,0.597,r,hb_tv_tau_base_vs_p99_correlation.csv
+spearman_tau_base_vs_p99,0.613,rho,hb_tv_tau_base_vs_p99_correlation.csv
+quadrant_counts,13/12/13/12,operators (Q1/Q2/Q3/Q4),hb_tv_quadrant_assignment.csv
+delta_elpd_loo,+45.10,elpd,model_comparison.csv
+delta_aic_runner_up_minus_exgaussian,102.168,AIC,distribution_fit_cluster_bootstrap.csv
+elpd_loo,-739.946,elpd,hb_tv_loo_diagnostics.csv
+pareto_k_max,1.007,k,hb_tv_loo_diagnostics.csv
+pareto_k_gt_0.7,4 (0.3%),trials,hb_tv_loo_diagnostics.csv
+ablation_elpd_static,-785.045,elpd,ablation_time_varying_location.csv
+ablation_delta_static_vs_main,-45.1,elpd,ablation_time_varying_location.csv
+ablation_delta_both_vs_main,17.918,elpd,ablation_time_varying_location.csv
+kfold_delta_elpd,44.258,elpd,kfold_cv_summary.csv
+kfold_delta_elpd_se,10.418,elpd,kfold_cv_summary.csv
+kfold_pct_folds_favoring_tv,90.0,%,kfold_cv_summary.csv
+quadrant_modal_agreement,48 of 50,operators,posterior_quadrant_probability.csv
+mean_posterior_confidence,0.489,probability,posterior_quadrant_probability.csv
+q2_q4_crossover_median,3.36,min,crossover_time.csv
+q2_q4_crossover_eti94,0.17-11.06,min,crossover_time.csv
+theta_pop_min_across_strategies,0.0621,s per session,cleaning_sensitivity.csv
+theta_pop_max_across_strategies,0.5119,s per session,cleaning_sensitivity.csv

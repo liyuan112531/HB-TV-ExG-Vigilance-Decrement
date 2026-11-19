@@ -1,0 +1,2 @@
+model,smoke,tune,draws,chains,target_accept,seed,n_observations,n_subjects,max_r_hat,min_ess_bulk,divergences,n_params_rhat_gt_1.01,theta_pop_mean,elapsed_s
+HB-TV-ExG,False,1000,2000,4,0.92,2026,1329,50,1.0080185309646212,1265.870749025733,2,0,0.47796722311460044,104.3

@@ -1,0 +1,30 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging and build artefacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Analysis scratch files
+.ipynb_checkpoints/
+*.nc
+*.pkl
+*.log
+scratch/
+tmp/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

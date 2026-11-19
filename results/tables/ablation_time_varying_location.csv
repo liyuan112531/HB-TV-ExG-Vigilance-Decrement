@@ -1,0 +1,5 @@
+﻿model,description,n_obs,n_subjects,n_draws,elpd_loo,se_elpd_loo,p_loo,elpd_waic,p_waic,pareto_k_max,d_elpd_loo_vs_main,dse_vs_main,max_r_hat,min_ess_bulk,divergences
+HB-Static-ExG,neither mu nor tau varies with time,1329,50,8000,-785.045,33.998,79.278,-782.706,76.939,0.847,-45.1,10.476,1.0054,1179.2,0
+HB-TV-Mu-ExG,mu_it = mu_base_i + delta_i t_norm; tau static,1329,50,8000,-755.331,34.994,95.877,-751.036,91.582,0.869,-15.386,11.163,1.0038,728.9,0
+HB-TV-ExG,tau_it = tau_base_i + theta_i t_norm; mu static (main),1329,50,8000,-739.946,35.611,89.217,-736.993,86.264,1.007,0.0,0.0,1.008,1265.9,2
+HB-TV-Both-ExG,both mu_it and tau_it drift linearly,1329,50,8000,-722.027,35.647,96.843,-717.487,92.303,0.866,17.918,6.097,1.0057,915.2,0

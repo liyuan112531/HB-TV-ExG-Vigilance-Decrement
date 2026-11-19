@@ -1,0 +1,4 @@
+quantile,observed_s,ppc_median_s,ppc_ci94_lb,ppc_ci94_ub,covered_by_94pct_band,bayesian_p_two_sided,n_post_draws
+P50,1.2936,1.2435,1.2113,1.2786,False,0.005,800
+P95,2.6839,2.6578,2.4829,2.8534,True,0.8,800
+P99,3.6616,3.846,3.4663,4.3631,True,0.4325,800
